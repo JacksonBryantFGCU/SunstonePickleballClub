@@ -9,7 +9,6 @@ import LandingPage from "./pages/Home/LandingPage";
 import CalendarPage from "./pages/Calendar/CalendarPage";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound";
-import TournamentsPage from "./pages/Tournaments/TournamentsPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,7 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/" element={<LandingPage />} />
           <Route path="about" element={<About />} />
           <Route path="calendar" element={<CalendarPage />} />
-          <Route path="tournaments" element={<TournamentsPage />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>

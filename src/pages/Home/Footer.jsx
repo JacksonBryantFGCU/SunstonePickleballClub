@@ -65,20 +65,6 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link 
-                                    to="/tournaments" 
-                                    onClick={() => {
-                                        window.scroll({
-                                            top: 0,
-                                            left: 0,
-                                            behavior: "smooth",
-                                        });
-                                    }}
-                                    className="footer-style">
-                                    Tournaments
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
                                     to="/contact" 
                                     onClick={() => {
                                         window.scroll({

@@ -75,18 +75,6 @@ const Navbar = () => {
                         Calendar
                     </Link>
                     <Link 
-                        to="/tournaments" 
-                        onClick={() => {
-                            window.scroll({
-                                top: 0,
-                                left: 0,
-                                behavior: "smooth",
-                            });
-                        }}
-                        className="navbar-style">
-                        Tournaments
-                    </Link>
-                    <Link 
                         to="/contact" 
                         onClick={() => {
                             window.scroll({
@@ -170,19 +158,6 @@ const Navbar = () => {
                         }}
                         className="navbar-mobile">
                         Calendar
-                    </Link>
-                    <Link 
-                        to="/tournaments" 
-                        onClick={() => {
-                            setIsOpen(false)
-                            window.scroll({
-                                top: 0,
-                                left: 0,
-                                behavior: "smooth",
-                            });
-                        }}
-                        className="navbar-mobile">
-                        Tournaments
                     </Link>
                     <Link 
                         to="/contact" 

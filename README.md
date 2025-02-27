@@ -4,7 +4,7 @@ Welcome to the **Sunstone Pickleball Club Website**! This site serves as the go-
 
 ## 🌐 **Live Demo**  
 Check out the live website here:  
-[Sunstone Pickleball Club](https://www.sunstonepickleball.com)  
+[Sunstone Pickleball Club](sunstone-pickleball-club.vercel.app)  
 
 ## 🚀 **Features**  
 - 📅 **Club Calendar** – Stay updated on upcoming pickleball events and meetups.  
